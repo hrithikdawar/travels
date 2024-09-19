@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+html, body{
+height: 100%;
+width: 100%;
+
+}
+
+.main{
+ height: 100%;width: 100%;
+ font-family: helvetica;
+ 
+}
+.main>nav{
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+   
+    align-items: center;
+}
+.main>nav>img{
+    height: 10vh;
+
+}
+.main>nav>.center>ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2vw;
+    text-align: center;
+     margin: 5vh;
+  font-size: 3vh;
+
+}
+.main>nav>button{
+   border-radius: 25px 25px 25px 25px;
+   height: 7vh;
+   padding:  0 3vw;
+   background-color: rgb(255, 196, 0);
+   font-size: 2vh;
+   font-weight: 900;
+   color: white;
+   border: 1px solid transparent;
+  
+
+   
+}
+.content{
+    height: 80vh;
+    width: 100vw;
+   background-image: url(./img/beach-6292382_1280.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.left{
+    height: 80%;width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    gap: 4vh;
+  
+}
+.left>h1{
+font-size: 6vh;
+font-weight: 700;
+}
+.left>p{
+    width: 70%;
+
+
+}
+.left>button{
+    padding: 2vh 4vw;
+    border-radius: 25px 25px 25px 25px;
+    border: 2px solid rgb(196, 191, 191);
+    background-color: transparent;
+    font-size: 2vh;
+    font-weight: 500;
+    width: 30%;
+}
+.right{
+    height: 85%;width: 27%;
+    background-color: rgba(205, 204, 209, 0.753);
+    margin: 2VH;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    border-radius: 25px 25px 25px 25px;
+    padding: 2vh 1vw;
+}
+.right>.up> h1,.upper>.l1>h1{
+    font-size: 2.5vh;
+    font-weight: 300;
+    color: gray;
+   
+    margin:2vh 1vw;
+}
+.right>.up> input,.upper>.l1>input{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid gray;
+   height: 4vh;
+   margin:0vh 1vw;
+   border-radius: 25px 25px 25px 25px;
+   padding: 2vh;
+}
+.upper{
+    display: flex;
+    gap: 1vw;
+     
+}
+.l1{
+    width: 50%;
+    display: flex;
+ flex-direction: column;
+}
+button{
+    background-color:
+    #f8aa02;
+    padding: 2vh 8vw;
+    font-size: 3vh;
+    font-weight: 600;
+    border-radius: 25px 25px 25px 25px ;
+    border: 1px solid transparent;
+}
+button:hover{
+    transition: .4s all ease;
+    border: 2px solid  black;
+    box-shadow: 1px 1px   rgb(250, 151, 2) ;
+}
+
